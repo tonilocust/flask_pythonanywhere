@@ -16,7 +16,7 @@ def git_update():
     return '', 200
 
 def home_page():
-    message="Welcome to the Home Page"
+    message="Welcome to the Home Page biatch"
     response={"message":message}
     return jsonify({"response":response}), 200
 
